@@ -7,7 +7,7 @@ const LayananKami = () => {
 
   const layanan = [
     {
-      icon: "/assets/listrik & air.svg",
+      icon: "/assets/listrik-air.svg",
       title: "Tagihan Listrik & Air",
       description:
         "Pembayaran tagihan listrik dan air secara real-time dengan proses cepat dan akurat untuk kebutuhan pelanggan harian.",
