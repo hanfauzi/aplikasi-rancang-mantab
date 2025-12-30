@@ -68,7 +68,7 @@ const FormHubungiKami = () => {
             name="namaLengkap"
             value={formik.values.namaLengkap}
             onChange={formik.handleChange}
-            className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#5223C4]"
+            className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#5223C4] text-black"
           />
           {formik.touched.namaLengkap && formik.errors.namaLengkap && (
             <p className="text-red-500 text-sm">{formik.errors.namaLengkap}</p>
@@ -77,7 +77,7 @@ const FormHubungiKami = () => {
 
         {/* Email */}
         <div>
-          <label className="block font-urbanist font-semibold text-[#052B63] mb-2">
+          <label className="block font-urbanist font-semibold text-[#052B63] mb-2 ">
             Email
           </label>
           <input
@@ -85,7 +85,7 @@ const FormHubungiKami = () => {
             name="email"
             value={formik.values.email}
             onChange={formik.handleChange}
-            className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#5223C4]"
+            className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#5223C4] text-black"
           />
           {formik.touched.email && formik.errors.email && (
             <p className="text-red-500 text-sm">{formik.errors.email}</p>
@@ -102,7 +102,7 @@ const FormHubungiKami = () => {
             name="phone"
             value={formik.values.phone}
             onChange={formik.handleChange}
-            className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#5223C4]"
+            className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#5223C4] text-black"
           />
           {formik.touched.phone && formik.errors.phone && (
             <p className="text-red-500 text-sm">{formik.errors.phone}</p>
@@ -119,7 +119,7 @@ const FormHubungiKami = () => {
             name="pesan"
             value={formik.values.pesan}
             onChange={formik.handleChange}
-            className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#5223C4]"
+            className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#5223C4] text-black"
           />
           {formik.touched.pesan && formik.errors.pesan && (
             <p className="text-red-500 text-sm">{formik.errors.pesan}</p>
