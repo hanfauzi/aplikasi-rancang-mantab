@@ -10,41 +10,37 @@ const Hero = () => {
         {/* Mobile Layout */}
         <div className="lg:hidden flex flex-col pt-4 pb-8 relative">
           <div className="space-y-6 text-center mb-8 relative z-10">
-            <h1 className="font-extrabold text-3xl leading-tight text-[#1B227D]">
-              Solusi Terintegrasi Biller
-              <br />
-              <span className="text-[#0533F9]">Agregator PPOB untuk</span>
-              <br />
-              Bisnis Digital Anda
+            <h1 className="font-extrabold text-[32px] leading-tight text-[#024FC5]">
+              Solusi Terintegrasi Biller Agregator PPOB untuk Bisnis Digital
+              Anda
             </h1>
 
-            <p className="text-sm text-gray-700 leading-relaxed px-2">
-              <span className="font-bold">KODE TEKNOLOGI KOMBINASI</span> hadir
-              sebagai Biller Aggregator PPOB yang menghubungkan berbagai layanan
-              pembayaran dalam satu sistem terintegrasi. Dengan teknologi yang
-              stabil, aman, dan mudah digunakan, kami membantu mitra bisnis dan
-              masyarakat menjalankan transaksi pembayaran secara cepat, akurat,
-              dan efisien di seluruh Indonesia.
+            <p className="text-[12px] text-gray-700 leading-relaxed px-2">
+              Aplikasi Rancang Mantab menghadirkan platform PPOB yang andal,
+              aman, dan mudah diintegrasikan untuk mendukung berbagai kebutuhan
+              transaksi digital. Kami membantu mitra bisnis memperluas layanan
+              pembayaran dengan sistem yang stabil, efisien, dan siap
+              berkembang.
             </p>
 
             <a href="#hubungi-kami">
-              <button className="text-white mb-5 bg-[#0533F9] hover:bg-[#0533F9]/90 font-semibold rounded-lg px-8 py-3.5 transition-all duration-200 w-[90%] mx-auto block">
+              <button className="text-white mb-5 bg-[#024FC5] hover:bg-[#024FC5]/90 font-semibold rounded-lg px-8 py-3.5 transition-all duration-200 w-[90%] mx-auto block">
                 Hubungi Kami
               </button>
             </a>
             <a href="#layanan">
-              <button className="text-[#0533F9] bg-white border border-[#0533F9] font-semibold rounded-lg px-8 py-3.5 transition-all duration-200 w-[90%] mx-auto block">
+              <button className="text-[#0690FB] bg-white border border-[#024FC5] font-semibold rounded-lg px-8 py-3.5 transition-all duration-200 w-[90%] mx-auto block">
                 Lihat Layanan
               </button>
             </a>
           </div>
 
-          <div className="relative w-full -mt-32 mb-2 z-0">
+          <div className="relative w-full -mt-32 mb-2 z-0 left-0">
             <Image
-              src="/assets/hero/cewe-cewe-mobile.svg"
+              src="/assets/cewe-cewe-mobile.svg"
               alt="Business professionals discussing"
-              height={100}
-              width={100}
+              height={458}
+              width={375}
               className="w-full h-auto max-w-xl mx-auto"
             />
           </div>

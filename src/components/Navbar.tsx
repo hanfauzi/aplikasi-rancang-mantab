@@ -134,8 +134,8 @@ const Navbar = () => {
                 <Image
                   src="/assets/Logo.svg"
                   alt="ARB Logo"
-                  width={134.01}
-                  height={46}
+                  width={87}
+                  height={30}
                   className="h-9"
                   onClick={() => handleScrollTo("home")}
                 />
@@ -169,7 +169,7 @@ const Navbar = () => {
                 <li className="pt-2">
                   <button
                     onClick={() => handleScrollTo("hubungi-kami")}
-                    className="w-full text-white bg-[#0533F9] hover:bg-[#0533F9]/70 px-6 py-3 rounded-lg transition-colors font-semibold"
+                    className="w-full text-white bg-[#024FC5] hover:bg-[#024FC5]/70 px-6 py-3 rounded-lg transition-colors font-semibold"
                   >
                     Hubungi Kami
                   </button>
