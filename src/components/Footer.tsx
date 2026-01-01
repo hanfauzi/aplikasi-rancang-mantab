@@ -110,10 +110,10 @@ export default function Footer() {
         {/* Logo & Description */}
         <div className="mb-12">
           <Image
-            src="/assets/ktk-footer-logo.svg"
+            src="/assets/Footer-logo.svg"
             alt="Kode Teknologi Kombinasi Logo"
-            height={100}
-            width={100}
+            height={50}
+            width={145}
             className="h-16 mb-6"
           />
           <p className=" text-white font-light leading-relaxed text-base">
@@ -186,7 +186,7 @@ export default function Footer() {
                 >
                   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                 </svg>
-                <span>hello@anikanusantara.com</span>
+                <span>hello@rancangmantab.com</span>
               </li>
             </ul>
           </div>
