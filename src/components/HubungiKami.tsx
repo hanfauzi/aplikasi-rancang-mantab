@@ -18,13 +18,25 @@ export default function HubungiKami() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* LEFT CONTENT */}
           <div className="space-y-8 w-full">
-            <div>
+            {/* DESKTOP TEXT */}
+            <div className="hidden md:block">
               <h2 className="font-urbanist font-extrabold text-2xl md:text-3xl text-[#024FC5] mb-2.5">
                 Siap Menjadi Mitra Bisnis Anda
               </h2>
-              <p className="font-urbanist text-[#052B63] w-[90%] md:w-full text-sm md:text-base leading-relaxed">
+              <p className="font-urbanist text-[#052B63] text-base leading-relaxed">
                 Kami siap membantu mengembangkan bisnis Anda melalui solusi PPOB
                 yang handal dan terintegrasi.
+              </p>
+            </div>
+
+            {/* MOBILE TEXT */}
+            <div className="md:hidden">
+              <h2 className="font-urbanist font-bold text-2xl text-center text-[#024FC5] mb-2">
+                Siap Mengembangkan Bisnis?
+              </h2>
+              <p className="font-urbanist text-[#052B63] text-xs text-center leading-relaxed">
+                Ada pertanyaan? Kami ingin sekali mendengarnya. Kirimkan pesan
+                kepada kami, dan kami akan segera merespons.
               </p>
             </div>
 
@@ -57,7 +69,6 @@ export default function HubungiKami() {
                   className="w-12 h-12"
                   width={80}
                   height={80}
-
                 />
                 <div>
                   <h3 className="font-urbanist font-bold text-lg mb-2 text-[#024FC5]">
@@ -82,7 +93,6 @@ export default function HubungiKami() {
                   className="w-12 h-12"
                   width={80}
                   height={80}
-
                 />
                 <div>
                   <h3 className="font-urbanist font-bold text-lg mb-2 text-[#024FC5]">

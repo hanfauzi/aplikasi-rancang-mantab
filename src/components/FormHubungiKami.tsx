@@ -128,7 +128,7 @@ const FormHubungiKami = () => {
 
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           {/* CAPTCHA */}
-          <div className="origin-left scale-[0.8] sm:scale-100">
+          <div className="origin-left scale-[0.65] md:scale-[0.8] sm:scale-100">
             <ReCAPTCHA
               ref={captchaRef}
               sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
