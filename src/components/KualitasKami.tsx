@@ -11,22 +11,26 @@ const KualitasKami = () => {
     {
       icon: "/assets/sistem.svg",
       title: "Stabilitas Sistem",
-      description: "Infrastruktur handal dengan performa tinggi.",
+      description:
+        "Didukung infrastruktur yang handal untuk memastikan transaksi berjalan lancar dan minim gangguan.",
     },
     {
       icon: "/assets/integrasi.svg",
       title: "Integrasi Mudah",
-      description: "API fleksibel dan mudah diintegrasikan.",
+      description:
+        "API dan sistem yang dirancang agar mudah diintegrasikan dengan berbagai platform bisnis dan aplikasi digital.",
     },
     {
       icon: "/assets/layanan.svg",
       title: "Layanan Lengkap",
-      description: "Semua kebutuhan PPOB dalam satu sistem.",
+      description:
+        "Beragam produk PPOB tersedia dalam satu sistem terpusat untuk efisiensi operasional.",
     },
     {
       icon: "/assets/keamanan.svg",
       title: "Keamanan Terjamin",
-      description: "Standar keamanan tinggi untuk data & transaksi.",
+      description:
+        "Mengutamakan perlindungan data dan transaksi dengan standar keamanan yang ketat.",
     },
   ];
 
@@ -87,21 +91,30 @@ const KualitasKami = () => {
               }}
             >
               {keunggulan.map((item, index) => (
-                <div key={index} className="w-full shrink-0 px-4">
-                  <div className="bg-white rounded-xl p-6 shadow-lg max-w-xs mx-auto">
-                    <Image
-                      src={item.icon}
-                      alt={item.title}
-                      width={100}
-                      height={100}
-                      className="w-20 h-20 mx-auto mb-4"
-                    />
-                    <h3 className="text-center font-bold text-[#024FC5] mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-sm text-center text-[#052B63]">
-                      {item.description}
-                    </p>
+                <div
+                  key={index}
+                  className="w-full shrink-0 flex justify-center"
+                >
+                  {/* OUTER */}
+                  <div className="w-[343px] h-[343px] flex items-center justify-center">
+                    {/* INNER CARD */}
+                    <div className="w-[303px] h-[303px] bg-white rounded-[15px] p-5 shadow-lg flex flex-col gap-4">
+                      <Image
+                        src={item.icon}
+                        alt={item.title}
+                        width={120}
+                        height={120}
+                        className="w-16 h-16 mx-auto mt-10"
+                      />
+
+                      <h3 className="text-center text-[20px] font-extrabold text-[#024FC5]">
+                        {item.title}
+                      </h3>
+
+                      <p className="text-[12px] text-center text-[#052B63] leading-relaxed flex-1">
+                        {item.description}
+                      </p>
+                    </div>
                   </div>
                 </div>
               ))}
