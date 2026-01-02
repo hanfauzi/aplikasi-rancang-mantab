@@ -11,7 +11,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "aplikasi rancang mantab",
+  title: "Aplikasi Rancang Mantab",
   description: "Solusi Terintegrasi Biller Agregator PPOB untuk Bisnis Digital Anda",
   icons: {
     icon: "/assets/rename.png",
