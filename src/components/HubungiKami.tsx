@@ -19,7 +19,7 @@ export default function HubungiKami() {
           {/* LEFT CONTENT */}
           <div className="space-y-8 w-full">
             <div>
-              <h2 className="font-urbanist font-bold text-2xl md:text-3xl text-[#024FC5] mb-2.5">
+              <h2 className="font-urbanist font-extrabold text-2xl md:text-3xl text-[#024FC5] mb-2.5">
                 Siap Menjadi Mitra Bisnis Anda
               </h2>
               <p className="font-urbanist text-[#052B63] w-[90%] md:w-full text-sm md:text-base leading-relaxed">
