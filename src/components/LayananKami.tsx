@@ -114,8 +114,9 @@ const LayananKami = () => {
               }}
             >
               {layanan.map((item, index) => (
-                <div key={index} className="w-full shrink-0 px-4">
-                  <div className="bg-white rounded-3xl p-8 shadow-lg max-w-sm mx-auto">
+                <div key={index} className="w-full shrink-0 flex justify-center">
+                   <div className="w-[343px] h-[343px] flex items-center justify-center">
+                  <div className="w-[303px] h-[303px] bg-white rounded-[15px] p-5 shadow-lg flex flex-col gap-4">
                     <Image
                       src={item.icon}
                       alt={item.title}
@@ -124,7 +125,7 @@ const LayananKami = () => {
                       className="w-24 h-24 mx-auto mb-6"
                     />
 
-                    <h3 className="text-lg font-bold text-[#024FC5] text-center mb-3">
+                    <h3 className="text-xl font-extrabold text-[#024FC5] text-center mb-3">
                       {item.title}
                     </h3>
 
@@ -133,6 +134,7 @@ const LayananKami = () => {
                     </p>
                   </div>
                 </div>
+              </div>
               ))}
             </div>
           </div>

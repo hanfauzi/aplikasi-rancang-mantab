@@ -104,14 +104,14 @@ const KualitasKami = () => {
                         alt={item.title}
                         width={120}
                         height={120}
-                        className="w-16 h-16 mx-auto mt-10"
+                        className="w-24 h-24 mx-auto mb-6"
                       />
 
-                      <h3 className="text-center text-[20px] font-extrabold text-[#024FC5]">
+                      <h3 className="text-center text-xl font-extrabold text-[#024FC5] mb-3">
                         {item.title}
                       </h3>
 
-                      <p className="text-[12px] text-center text-[#052B63] leading-relaxed flex-1">
+                      <p className="text-sm text-center text-[#052B63]">
                         {item.description}
                       </p>
                     </div>
