@@ -12,36 +12,37 @@ const LayananKami = () => {
       icon: "/assets/listrik-air.svg",
       title: "Tagihan Listrik & Air",
       description:
-        "Pembayaran tagihan listrik dan air secara real-time dengan proses cepat dan akurat.",
+        "Pembayaran tagihan listrik dan air secara real-time dengan proses cepat dan akurat untuk kebutuhan pelanggan harian.",
     },
     {
       icon: "/assets/bpjs.svg",
       title: "Jaminan Sosial & Kesehatan",
       description:
-        "Layanan pembayaran BPJS dan jaminan sosial lainnya dengan sistem aman.",
+        "Layanan pembayaran BPJS dan jaminan sosial lainnya dengan sistem yang aman dan terverifikasi.",
     },
     {
       icon: "/assets/internet.svg",
       title: "Internet & Telepon Rumah",
       description:
-        "Pembayaran internet dan telepon rumah dari berbagai penyedia.",
+        "Pembayaran tagihan internet dan telepon rumah dari berbagai penyedia dalam satu platform terpadu.",
     },
     {
       icon: "/assets/multifinance.svg",
       title: "Multifinance",
       description:
-        "Pembayaran cicilan dan pembiayaan multifinance secara praktis.",
+        "Fasilitas pembayaran cicilan dan pembiayaan dari berbagai perusahaan multifinance secara praktis.",
     },
     {
       icon: "/assets/pulsa.svg",
       title: "Pulsa & Paket Data",
       description:
-        "Isi ulang pulsa dan paket data semua operator secara instan.",
+        "Pengisian pulsa dan paket data semua operator dengan proses instan dan ketersediaan lengkap.",
     },
     {
       icon: "/assets/voucher game.svg",
       title: "Voucher Game & Streaming",
-      description: "Voucher game dan hiburan digital yang cepat dan siap jual.",
+      description:
+        "Penyediaan voucher game dan layanan hiburan digital yang cepat, aman, dan siap jual.",
     },
   ];
 
